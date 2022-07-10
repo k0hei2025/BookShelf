@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.shelf {
+  background-color: #423F3E;
+  width: 50%;
+  margin: 2rem;
+  margin-left: 23%;
+  padding: 2rem;
+  align-items: center;
+  display: block;
+ 
+}
+
+.bookWrapper {
+  background-color: #BE8C63;
+  display: block;
+  width: 40%;
+  margin:1rem;
+  align-items: center;
+ height: 30vh;
+ padding: 8px 16px;
+ 
+border-radius: .5rem;
+box-shadow: 2px 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.bookDescription{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bookDelete{
+  background-color: red;
+  border-style: none;
+  padding: 8px 32px;
+  color:wheat;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
